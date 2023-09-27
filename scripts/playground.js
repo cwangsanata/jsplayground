@@ -3,10 +3,7 @@ const countDisplay = document.getElementById("count-display");
 const subtractButton = document.getElementById("subtract");
 const addButton = document.getElementById("add");
 
-
-
 // Part 3a:
-
 let count = 0;
 function increaseCount() {
   /*Increment the count variable by 1.*/
@@ -25,9 +22,6 @@ subtractButton.addEventListener('click', () => {
   countDisplay.textContent = count;
 });
 
-
-
-
 // Part 5:
 const inputTask = document.getElementById("input-task");
 const taskList = document.getElementById("tasks");
@@ -35,9 +29,6 @@ const taskList = document.getElementById("tasks");
 const submitButton = document.getElementById("submit");
 // Initialize the const clearButton:
 const clearButton = document.getElementById("clear");
-
-
-
 
 // Part 6:
 submitButton.addEventListener("click", () => {
